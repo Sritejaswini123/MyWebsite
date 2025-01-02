@@ -1,0 +1,59 @@
+.about-section {
+    display: flex;
+    justify-content: space-between;
+  
+  
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 2rem;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .achievement-title {
+    margin-bottom: 1.5rem;
+  }
+  
+  .achievement-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .achievement-list li {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  
+  .star {
+    color: white;
+    margin-right: 1rem;
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dev-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

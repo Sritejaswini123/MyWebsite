@@ -1,0 +1,166 @@
+/* ContactCard.css */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+
+:root {
+  --d: 5000ms;
+  --angle: 90deg;
+  --gradX: 100%;
+  --gradY: 50%;
+  --c1: rgba(168, 239, 255, 1);
+  --c2: rgba(168, 239, 255, 0.1);
+}
+
+@keyframes borderRadial {
+  20% {
+    --gradX: 100%;
+    --gradY: 50%;
+  }
+  40% {
+    --gradX: 100%;
+    --gradY: 100%;
+  }
+  60% {
+    --gradX: 50%;
+    --gradY: 100%;
+  }
+  80% {
+    --gradX: 0%;
+    --gradY: 50%;
+  }
+  100% {
+    --gradX: 50%;
+    --gradY: 0%;
+  }
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: #1a202c;
+    border-radius: 0rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    padding: 2rem;
+    width: 100%;
+    max-width: 42rem;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    border: 0.35rem solid;
+    border-image: radial-gradient(ellipse  at var(--gradX) var(--gradY),
+     var(--c1),
+      var(--c1) 10%, 
+      var(--c2) 40%
+      ) 30;
+    animation: borderRadial var(--d) linear infinite forwards;
+  }
+  
+
+  .card-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .info-item span {
+    color: white;
+  }
+  
+  .info-item a {
+    color:  #60a5fa;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .info-item a:hover {
+    color: #60a5fa;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .footer-text {
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .social-link {
+    transition: opacity 0.2s;
+  }
+  
+  .social-link:hover {
+    opacity: 0.8;
+  }
+  
+  .social-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 640px) {
+    .card {
+      padding: 1.5rem;
+    }
+    
+    .card-title {
+      font-size: 1.5rem;
+    }
+    
+    .info-item {
+      gap: 0.75rem;
+    }
+    
+    .social-icons {
+      gap: 1rem;
+    }
+  }

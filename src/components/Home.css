@@ -1,0 +1,127 @@
+/* Add this to your Home.css file background-color: rgba(0, 0, 0, 0.7); */
+.home-container { 
+    flex:content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+   
+  
+  }
+  
+  /* Updated Section Styling */
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+  
+  }
+  
+  /* Subtitle Styling */
+  .subtitle {
+    font-size: 1.1rem;
+    color:  white;
+    margin-bottom: 1rem;
+    font-weight: normal;
+  }
+  
+  /* Title Styling */
+  .title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1rem 0 2rem 0;
+    line-height: 1.2;
+  }
+  
+  .highlight {
+    color: #4a90e2;
+  }
+  
+
+  /* Typewriter Effect */
+.typewriter {
+    display: inline-block;
+    animation: typing 5s steps(40, end), blink 0.8s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid  #4a90e2; /* Cursor */
+    transform-origin: center;
+}
+
+/* Typewriter Keyframes */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    30% {
+        border-color: transparent;
+    }
+}
+ 
+  /* Buttons Container */
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Common Button Styling */
+  .btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hire Me Button */
+  .hire-me {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .hire-me:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Projects Button */
+  .projects {
+    background-color: #2878d3;
+    color: white;
+  }
+  
+  .projects:hover {
+    background-color: #357abd;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2.5rem;
+    }
+    
+    .buttons {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+  }
