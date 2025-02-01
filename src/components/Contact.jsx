@@ -44,8 +44,8 @@ const Contact = () => {
             />
             <div>
               <span>DM on Instagram: </span>
-              <a href="https://instagram.com/shivambhadani_">
-                @shivambhadani_
+              <a href="https://www.instagram.com/__._tez_.__/">
+                @ __._tez_.__
               </a>
             </div>
           </div>
@@ -90,7 +90,7 @@ const Contact = () => {
               className="social-icon"
             />
           </a>
-          <a href="#" className="social-link">
+          <a href="https://www.instagram.com/__._tez_.__/" className="social-link">
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/225px-Instagram_logo_2022.svg.png" 
               alt="instagram" 

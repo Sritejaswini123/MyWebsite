@@ -32,7 +32,7 @@ function App() {
             <a href="https://x.com/SritejaA16093" target="_blank" rel="noopener noreferrer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/768px-Logo_of_Twitter.svg.png?20220821125553" alt="Instagram" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/__._tez_.__/" target="_blank" rel="noopener noreferrer">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/225px-Instagram_logo_2022.svg.png" alt="Instagram" />
             </a>
           </div>
