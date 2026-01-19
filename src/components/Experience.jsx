@@ -6,6 +6,59 @@ const Experience = () => {
   return (
     <div className="experience-container">
       {/* Experience Card */}
+
+
+  {/* Backend Experience */}
+      <div className="experience-card">
+        <div className="card-header">
+          <div className="company-info">
+            <h2 className="company-name">ActaNos</h2>
+            <h3 className="position">Backend Developer</h3>
+          </div>
+          <div className="date">
+            April 2025 - September 2025
+          </div>
+        </div>
+
+        <ul className="experience-list">
+          <li className="experience-item">
+            <div className="bullet-point"></div>
+            <p className="experience-text">
+              Developed backend services using <strong>Node.js, Hono, and TypeScript</strong> for scalable applications.
+            </p>
+          </li>
+
+          <li className="experience-item">
+            <div className="bullet-point"></div>
+            <p className="experience-text">
+              Implemented WhatsApp automation features using <strong>Meta WhatsApp Business API</strong>, including template management.
+            </p>
+          </li>
+
+          <li className="experience-item">
+            <div className="bullet-point"></div>
+            <p className="experience-text">
+              Designed and integrated REST APIs for structured message handling and data workflows.
+            </p>
+          </li>
+
+          <li className="experience-item">
+            <div className="bullet-point"></div>
+            <p className="experience-text">
+              Managed databases using <strong>PostgreSQL and Drizzle ORM</strong>, ensuring data consistency and quality.
+            </p>
+          </li>
+
+          <li className="experience-item">
+            <div className="bullet-point"></div>
+            <p className="experience-text">
+              Scheduled and maintained <strong>Cron Jobs</strong> for periodic data evaluation and AI-driven messaging.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+
       <div className="experience-card">
         <div className="card-header">
           <div className="company-info">
@@ -61,6 +114,10 @@ const Experience = () => {
         </ul>
       </div>
 
+
+
+
+
       {/* Footer Section */}
       <div className="footer">
         <p className="footer-text">
@@ -89,7 +146,7 @@ const Experience = () => {
               className="social-icon"
             />
           </a>
-          <a href="#" className="social-link">
+          <a href="https://www.instagram.com/__._tez_.__/" className="social-link">
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/225px-Instagram_logo_2022.svg.png" 
               alt="instagram" 

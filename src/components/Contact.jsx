@@ -44,8 +44,8 @@ const Contact = () => {
             />
             <div>
               <span>DM on Instagram: </span>
-              <a href="https://instagram.com/shivambhadani_">
-                @shivambhadani_
+              <a href="https://www.instagram.com/__._tez_.__/_">
+                @__._tez_.__
               </a>
             </div>
           </div>
