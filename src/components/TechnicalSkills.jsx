@@ -22,6 +22,12 @@ const TechnicalSkills = () => {
               <span className="skill-label">Backend:</span>
               <span className="skill-items">NodeJS, Hono, Drizzle ORM, REST APIs, JSON </span> 
             </div>
+
+                <div className="skill-group">
+              <span className="skill-label">Backend:</span>
+              <span className="skill-items"> Hono , Drizzle ORM , Bruno, Avien, Better-auth, Postman </span> 
+            </div>
+            
             
             <div className="skill-group">
               <span className="skill-label">Database:</span>

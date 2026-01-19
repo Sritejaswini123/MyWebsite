@@ -8,6 +8,10 @@ function Home() {
     const handleNavigateToProjects = () => {
         navigate("/projects"); // Navigate to the Projects page
       };
+      const handleNavigateToContact = () => {
+        navigate("/contact"); // Navigate to Contact page
+    };
+
   return (
     <div className="home-container">
       <div className="section">
@@ -16,7 +20,7 @@ function Home() {
           Hi, I am Sritejaswini, a Software <span className="highlight">Engineer.</span>
         </h1>
         <div className="buttons">
-          <button className="btn hire-me">Hire Me</button>
+            <button className="btn hire-me" onClick={handleNavigateToContact}>Hire Me</button>
           <button className="btn projects"  onClick={handleNavigateToProjects} >Projects</button>
         </div>
       </div>

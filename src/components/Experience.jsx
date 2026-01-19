@@ -66,7 +66,7 @@ const Experience = () => {
             <h3 className="position">Founding  Engineer (Intern)</h3>
           </div>
           <div className="date">
-        August 2024 - December 2024
+        August 2024 - March 2025
           </div>
         </div>
         
